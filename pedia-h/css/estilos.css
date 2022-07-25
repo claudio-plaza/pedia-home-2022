@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=Vesper+Libre&display=swap');
+body {
+    padding: 0;
+    margin: 0;
+     color: #000; 
+    text-decoration: none;
+      box-sizing: content-box;
+}
+
+header {
+    background-color:#73968f;
+   
+}
+ol, ul {
+	list-style: none;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    padding-bottom: 1%;
+
+}
+.logos1{
+    display: flex;
+
+}
+
+.lupa{
+    display: flex;
+    
+}
+
+.pestañas > ul{
+    list-style: none;
+    margin: auto;
+    padding-bottom: 10px;
+    margin-left: 200px;
+    text-decoration: none;
+
+    
+}
+a{
+        transition: all 1s;
+}
+ a:hover{
+ opacity: .5;
+}
+.pestañas, li {
+    justify-content: center;
+    margin: 20px 25px;
+    
+    
+    
+}
+nav .pestañas ,li ,a{
+    text-decoration-line: none;
+    font-family: 'Vesper Libre', serif;
+    font-size: 18px;
+    color: black;
+
+} 
+
+.paginaPrincip {
+  margin: auto;
+}
+.contenedor {
+    margin-top: 2em;
+    width: 100%;
+    
+}
+#video {
+    width: 50%;
+    height: 50%;
+    display:block;
+    margin: auto;    
+}
+.titu1 h2{
+    color:lightblue;
+    padding-top: 20px;
+}
+.mapa {
+  width: 100%;
+  height: 50vh;
+  border: 2px solid #a4a4a4;
+  display: flex;
+}
+.mapa img {
+  width: 50%;
+  height: 500px;
+  position: absolute;
+}
+.mapa-m {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.doctores img {
+    width: 300px;
+    padding-left: 20px;
+}
+.botones img {
+    width: 190px;
+    justify-content: center;
+    align-content: center;
+    padding-left: 8px;
+    margin-bottom: 40px;
+
+}
+footer {
+    background: #73968f;
+    
+}
+.container-footer {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    
+}
+
+.container-footer .princip img {
+    width: 80%;
+    padding-right: 20px;
+    
+}
+.logosfoot {
+    width: 30%;
+    padding-right: 20px;
+    display: flex;
+}
+.container-footer .verticalLine {
+    color: white;
+    border-left:solid;
+
+    
+}
+.pestafoot {
+    padding-top: 3%;
+    list-style: none;
+    margin: auto;
+
+}
+
+.pestafoot ,li ,a{
+    font-family: 'Vesper Libre', serif;
+    font-size: 16px;
+
+} 
+.barra-horiz {
+    width: 50%;
+    margin: auto;
+    border-bottom: 3px solid linen;
+}
+.subtitulo {
+    margin: auto;
+    padding-top: 100px;
+    padding-left: 500px;
+    color: white;
+}
+.pestaInfer {
+    padding-top: 3%;
+    list-style: none;
+}
+
+.pestaInfer ,li ,a{
+    text-decoration-line: none;
+    color:ghostwhite;
+    font-family: 'Vesper Libre', serif;
+    font-size: 16px;
+
+} 
+.formulario {
+    color:ghostwhite;
+    font-family: 'Vesper Libre', serif;
+    font-size: 10px;
+}
+.formulario .parrafo {
+    padding-left: 80px;
+    width: 300px;
+    height: 100px;
+}
+
+footer .foot {
+    width: 1200px;
+    height: 100px;
+}
+a {
+    color: #000; 
+    text-decoration: none;
+}
+
+
+/*formulario de contacto */
+#form-input{
+    background: #D8DFDF;
+}
+.flechas{
+   filter: invert(1);
+}
+.noticias{
+    height: 300px;
+    margin-top: 1%;
+    transition: all 1s;
+   filter:opacity(.6)
+   
+}
+.noticias:hover{
+    cursor:pointer;
+   filter:opacity(1.2)
+}
+
+.i-sistema{
+
+    width: 18%;
+
+    font-size: 1.5rem;
+}
+.b-sistema{
+    border-bottom: 1px solid #a4a4a4;
+}
+.cont-sistema{
+    align-items: center;
+    height: 30em;
+}
+.foo-responsive{
+    width: 30% !important;
+}
+
+
+@media screen and (max-width:900px) and (min-width:481px) {
+    .buscar{
+        display: none;
+    }
+     #navPanel{
+        display: block;
+    }
+   
+    .not-resp{
+        align-items: center;
+        flex-direction:column;
+        align-self: center;
+    }
+
+    .foo-responsive{
+        width: 50% !important;
+        margin: auto !important;
+    }
+    .text-footer-resp{
+        display: none !important;
+    }
+    footer .parrafo{
+        display: contents; 
+        
+    }
+    footer .formulario{
+        display: contents;
+    }
+    footer .subtitulo > h4 {
+        display: none;
+        
+    }
+    .nav-foo{
+        display: flex;
+        flex-direction: column;
+        margin-left: 3%;
+    }
+    footer .pestafoot{
+        padding-right: 50vh;
+    }
+    footer ol > #listaServ {
+        margin: 0 100%;
+        padding: 0  100%;
+    }
+    #video{
+        width: 70%;
+    }
+    .interv-temp-resp{
+        display: none;
+    }
+    .nosot-resp{
+        width: 100%  !important;
+    }
+    .instit-resp{
+        width: 92% !important;
+        margin: auto;
+    }
+    .frases-resp{
+    display: none !important;
+}
+
+}
+
+@media screen and (max-width:480px) {
+     .buscar{
+        display: none;
+    }
+    .serv-resp{
+        align-self: center!important;
+    }
+    .noticias{
+        margin: 0 !important;
+
+    }
+    .not-resp{
+        align-items: center;
+        flex-direction:column;
+        align-self: center;
+
+    }
+      .foo-responsive{
+        width: 50% !important;
+        margin: auto !important;
+    }
+    .text-footer-resp{
+        display: none !important;
+    }
+        .nav-foo{
+        display: flex;
+        flex-direction: column;
+        margin-left: 3%;
+    }
+     .interv-temp-resp{
+        display: none;
+    }
+     #video{
+        width: 75%;
+    }
+      .nosot-resp{
+        width: 100%  !important;
+    }
+     .instit-resp{
+        width: 100% !important;
+        margin: 3%;
+    }
+    .frases-resp{
+    display: none !important;
+}
+
+ 
+}
