@@ -30,11 +30,13 @@
   <meta property="twitter:image" content="./imagenes/logo3.png">
   <meta name="google-site-verification" content="te084eHDRdSN2J8XYbWP7v7KN7C2Okcm1xwoX8Yz8QE" />
   <link rel="stylesheet" href="css/estilos.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     
     <!-- CSS only -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 </head>
 <body>
@@ -42,30 +44,35 @@
         <div class="paginaPrincip w-100"><img class="img-fluid" src="imagenes/portada-atenciontemprana.png" alt="pag-princ" ></div>
     </aside>
 <div class="container row">
-     <div class="col interv-temp-resp">
-        <img src="./imagenes/nenachina.png" class="img-fluid " alt="">
-    </div>
-    <div class="card col mt-5 shadow" style="width: 25rem;">
-        <div class="card-body col">
-            <h5 class="card-title text-center p-3 mb-5 bg-secondary text-white">INTERVENCIÓN TEMPRANA Y REHABILITACIÓN</h5>
-            <p class="card-text">El servicio de atención temprana está dirigido a niños y niñas de 0 a 6 años con alteraciones en el desarrollo o con riesgo de padecerlas, y el de rehabilitación hasta los 18 años. Son acciones, preventivas y/o asistenciales, encaminadas a facilitar la evolución del paciente, respetando el propio ritmo y haciendo intervenciones en los aspectos relacionales, lúdicos y funcionales.
+            <div class="card col-4 shadow tarjeta-it">
+            <div class="card-body ">
+                <h5 class="card-title text-center p-3 mb-5 bg-secondary text-white">INTERVENCIÓN TEMPRANA Y REHABILITACIÓN</h5>
+                <p class="card-text">El servicio de atención temprana está dirigido a niños y niñas de 0 a 6 años con alteraciones en el desarrollo o con riesgo de padecerlas, y el de rehabilitación hasta los 18 años. Son acciones, preventivas y/o asistenciales, encaminadas a facilitar la evolución del paciente, respetando el propio ritmo y haciendo intervenciones en los aspectos relacionales, lúdicos y funcionales.
 
-        A partir de esta propuesta de definición, buscamos resaltar los conceptos de globalidad, participación activa de la familia en el proceso de desarrollo del niño, interdisciplinariedad y la importancia de realizar la actuación sistemática y planificada desde las edades más tempranas.
+            A partir de esta propuesta de definición, buscamos resaltar los conceptos de globalidad, participación activa de la familia en el proceso de desarrollo del niño, interdisciplinariedad y la importancia de realizar la actuación sistemática y planificada desde las edades más tempranas.
 
-        Este proyecto propone la participación activa de las familias en conjunto con profesionales especializados e interdisciplinarios para el diagnóstico y tratamientos de las siguientes áreas:
-        -Pediatría
-        -Fonoaudiología
-        -Kinesiología
-        -Terapia ocupacional
-        -Psicopedagogía
-        -Psicología
-        -Trabajo Social
-        </p>
+            Este proyecto propone la participación activa de las familias en conjunto con profesionales especializados e interdisciplinarios para el diagnóstico y tratamientos de las siguientes áreas:
+            -Pediatría
+            -Fonoaudiología
+            -Kinesiología
+            -Terapia ocupacional
+            -Psicopedagogía
+            -Psicología
+            -Trabajo Social
+            </p>
+            </div>
         </div>
-    </div>
+        <div class="col-6 d-flex align-items-end interv-temp-resp "data-aos="fade-left">
+                 <img src="./imagenes/nenachina.png" class="img-fluid" alt="nena">
+           
+        </div>
+
 
 
 </div>
+    <div class="text-center w-100 ">
+      <img src="./imagenes/stikert1.png" class="img-fluid " alt="stiker.info">
+    </div>
     <footer>
         <div class="container-footer">
             <div class="princip">
@@ -157,6 +164,11 @@
     </footer>
           <h4 class="text-center fs-6 text-warning bg-dark pb-2 m-0"> All Rights Reserved | &copy;<a href="https://www.facebook.com/overalloficialagencia"
           target="_blanck">Over all</a></h4>
+           <script>
+    AOS.init({
+      duration: 3000
+    });
+  </script>  
 
 </body>
 </html>
