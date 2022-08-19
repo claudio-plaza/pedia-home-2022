@@ -231,6 +231,9 @@ footer .foot {
         display: none;
         
     }
+    .logo-footer{
+        margin-left: 1rem !important;
+    }
     .nav-foo{
         display: flex;
         flex-direction: column;
