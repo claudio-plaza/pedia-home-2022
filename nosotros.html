@@ -40,8 +40,8 @@
 
 </head>
 <body>
-      <header>
-         <div class="logos">
+    <header>
+        <div class="logos">
             <div id="pedi">
                 <img src="imagenes/logopediahome.png" alt="" class="mt-3 img-fluid" width="100px" height="50px">
             </div>
@@ -54,12 +54,17 @@
                 <a href="https://www.linkedin.com/company/79572547/admin/" target="_blanck"><div><img src="imagenes/logolinke.png" alt="" width="30px" height="30px"></div></a>
                     
             </div>
-            <div class="buscar">
+            <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search" list="lista-sugerida">
+        <button class="btn" type="submit"><img src="imagenes/lupa.png" alt="img-buscador" width="30px" height="30px" >
+        </button>      
+            </form>
+                      <!--<div class="buscar">
                 <div class="lupa">
                     <img src="imagenes/lupa.png" alt="" width="30px" height="30px" >
                     <input type="search" class="buscar_texto" placeholder="Escribe lo que buscas">  
                     <input type="submit" value="Buscar">
-                </div>
+                </div> --->
             </div>
         </div>      
     </header>
@@ -72,30 +77,30 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav m-auto">
         <li class="nav-item mx-4">
-          <a class="nav-link" href="index.html">Inicio</a>
+          <a class="nav-link" href="index.html"><b>Inicio</b></a>
         </li>
         <li class="nav-item dropdown mx-4">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-           Nosotros
+           <b>Nosotros</b>
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li class="my-3"><a class="dropdown-item" href="nosotros.html">Quienes somos</a></li>
-            <li class="my-3"><a class="dropdown-item" href="organigrama.html">Organigrama</a></li>
-            <li class="my-3"><a class="dropdown-item" href="institucion.html">La institución</a></li>
+            <li class="my-3"><a class="dropdown-item" href="nosotros.html"><b>Quienes somos</b></a></li>
+            <li class="my-3"><a class="dropdown-item" href="organigrama.html"><b>Organigrama</b></a></li>
+            <li class="my-3"><a class="dropdown-item" href="institucion.html"><b>La institución</b></a></li>
           </ul>
         </li>
         <li class="nav-item mx-4">
-          <a class="nav-link " href="equipo.html">Nuestro Equipo</a>
+          <a class="nav-link " href="equipo.html"><b>Nuestro Equipo</b></a>
         </li>
          <!-- <li class="nav-item mx-4">
-          <a class="nav-link " href="#">Noticias</a>
+          <a class="nav-link " href="#"><b>Noticias</a>
         </li>-->
         </li>
           <li class="nav-item mx-4">
-          <a class="nav-link " href="sistema.html">Sistema</a>
+          <a class="nav-link " href="sistema.html"><b>Sistema</a>
         </li>
           <li class="nav-item mx-4">
-          <a class="nav-link "href="https://api.whatsapp.com/send?phone=5492613043898" target="_blanck" >Turno</a>
+          <a class="nav-link "href="https://api.whatsapp.com/send?phone=5492613043898" target="_blanck">Turno</a>
         </li>
       </ul>
     </div>
@@ -131,7 +136,7 @@ Nuestra visión es mejorar la calidad de vida de nuestros pacientes, ofreciendo 
   <footer>
      <div class="d-flex container-fluid">
           <div class="row m-auto mt-4 justify-content-center">
-              <div class="col-md-6 col-5 border border-white border-bottom-0 border-top-0 border-start-0 ">
+              <div class="col-md-5 col-5">
                   <a href="./index.html"></a><img src="imagenes/logopediahome.png" class="img-fluid mt-4" alt="img-logo-pediahome"></a>
               </div>
               <div class="col-md-6 d-flex flex-row mt-5 justify-content-center">
@@ -179,7 +184,8 @@ Nuestra visión es mejorar la calidad de vida de nuestros pacientes, ofreciendo 
                                 </div>
               <div class="col">
                    <div class="col-md-4 formulario ">
-                                        <p class="text-start form-resp ">Somos un grupo de profesionales de la salud que consideran
+                                        <p class="form-resp ">
+                                        Somos un grupo de profesionales de la salud que consideran
                                         que el trabajo en equipo, el abordaje integral y
                                         los aportes de cada disciplina posibilitan un
                                         acompañamiento enriquecedor y efectivo centrado
@@ -190,7 +196,7 @@ Nuestra visión es mejorar la calidad de vida de nuestros pacientes, ofreciendo 
                                         y soporte a pacientes, familias, otros médicos o instituciones.
                                         Tenemos una nueva mirada integral y compleja. </p>
                            </div>  
-                           <div class="col-md-auto logo-footer mt-4">    
+                           <div class="col-md-auto d-flex logo-footer mt-4">    
                                         <a href="https://api.whatsapp.com/send?phone=5492613043898" target="_blanck">
                                          <img src="imagenes/logowhat.png" class="img-fluid " alt="img"></a>                
                                          <a href="https://www.instagram.com/pedia_home/" target="_blanck">

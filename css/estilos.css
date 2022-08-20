@@ -116,10 +116,6 @@ footer .foot {
     width: 1200px;
     height: 100px;
 }
-.logo-footer{
-    display: flex;
-    justify-content: center;
-}
 
 /*formulario de contacto */
 #form-input{
@@ -160,7 +156,9 @@ footer .foot {
 .slider-inst{
     height: 25%;
 }
-
+.form-resp{
+    text-align:justify;
+}
 
 
 @media screen and (max-width:900px) and (min-width:481px) {
@@ -191,7 +189,7 @@ footer .foot {
         
     }
     .logo-footer{
-        margin-left: 1rem !important;
+    justify-content: center;
     }
     .nav-foo{
         display: flex;
@@ -270,6 +268,8 @@ footer .foot {
         width: 100% !important;
         margin: 10px !important; 
     }
-
+    .logo-footer{
+    justify-content: center;
+    }
  
 }
