@@ -162,6 +162,9 @@ footer .foot {
 .bg-ul{
     background-color: #73968F !important;
 }
+.text-not{
+    text-align: justify;
+}
 
 
 @media screen and (max-width:900px) and (min-width:481px) {
